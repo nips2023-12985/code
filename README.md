@@ -30,8 +30,6 @@ We hope this repository can boost the research on the robustness of latent diffu
 
 - `dataset` : the dataset for testing the robustness of latent diffusion models, especially the image editing task. The dataset includes 500 data pairs (image+prompt) for image variation models and 500 data triplets (image+prompt+mask) for image inpainting models.
 
-- `diffusersgrad` : a modified version of the official diffuser library. This modified version allows backward gradient computation and disables the safety checker.
-
 - `attack_variation.ipynb` : the code for generating adversarial examples by attacking different modules of image variation diffusion models.
 
 - `variation_generation.ipynb` : the code for generating edited images of image variation diffusion models with the input of adversarial images and prompts.
